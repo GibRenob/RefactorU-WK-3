@@ -1,0 +1,17 @@
+<html ng-app="myAppThree">
+  <head>
+    <title>Into To Angular</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body ng-controller="myControllerThree">
+      <!-- JS4.1 - Part III  -->
+      <button ng-click="showPopUpFunction()">OPEN</button>
+      <div class="popup" ng-show="showPopUp">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis lectus, commodo ac auctor semper, ultrices at nibh. Nullam pretium dui non accumsan sollicitudin. Nulla venenatis metus vitae mauris sodales, a posuere quam feugiat. Sed eu dignissim orci. Sed luctus est lectus, at aliquam tellus interdum in. Suspendisse posuere tristique eleifend. Curabitur porta nisi et ante dapibus lobortis at a arcu. Mauris eget magna et sem porta scelerisque quis eget metus. Aenean vel leo quam. Etiam a felis at nulla ullamcorper sodales in sed leo. Nulla tristique volutpat est, quis dictum odio dignissim sollicitudin. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam lorem lacus, aliquam ac velit non, tempus posuere nisl. Maecenas consectetur urna mi, at accumsan velit eleifend et. Ut consequat commodo molestie.</p>
+        <button class="close-button" ng-click="closePopUpFunction()" ng-show="showPopUp">CLOSE</button>
+      </div>
+  </body>
+</html>
